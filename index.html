@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-firestore-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+          apiKey: "AIzaSyCidTL-LZAY-QgSw7ny6EMpIMpJrvjXUTM",
+          authDomain: "clase-gestionbd.firebaseapp.com",
+          projectId: "clase-gestionbd",
+          storageBucket: "clase-gestionbd.appspot.com",
+          messagingSenderId: "1040762667102",
+          appId: "1:1040762667102:web:28197b17fc31aa4d76b4cf"
+        };
+        const firebaseApp = firebase.initializeApp(firebaseConfig);
+        const db = firebaseApp.firestore();
+    </script>
+      <script src="firestore.js"></script>
+</body>
+</html>
